@@ -7,16 +7,18 @@
 		"dev": "nuxt dev",
 		"generate": "nuxt generate",
 		"preview": "nuxt preview",
-		"postinstall": "nuxt prepare"
+		"postinstall": "nuxt prepare",
+		"generate-pwa-assets": "pwa-assets-generator --preset minimal-2023 public/favicon.svg"
 	},
 	"dependencies": {
 		"@ibm/plex": "^6.4.0",
 		"@mdi/font": "^7.4.47",
+		"@vite-pwa/assets-generator": "^0.2.4",
+		"@vite-pwa/nuxt": "^0.7.0",
 		"less": "^4.2.0",
 		"nuxt": "^3.11.2",
 		"vue": "^3.4.21",
 		"vue-router": "^4.3.0",
-		"vue3-google-map": "^0.20.0",
 		"vuetify": "^3.6.3"
 	}
 }
