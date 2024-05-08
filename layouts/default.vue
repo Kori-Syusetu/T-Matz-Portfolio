@@ -1,9 +1,10 @@
 <template>
 	<v-app>
 		<v-app-bar>
-			<v-app-bar-nav-icon @click.stop="drawer = !drawer"/>
+			<v-app-bar-nav-icon @click.stop="drawer = !drawer" aria-label="ドロワーを開閉する"/>
 			<v-app-bar-title>Portfolio</v-app-bar-title>
 			<v-spacer/>
+			<!--
 			<v-menu>
 				<template v-slot:activator="{ props }">
 					<v-btn icon="1" v-bind="props">
@@ -21,6 +22,7 @@
 					</v-list-item>
 				</v-list>
 			</v-menu>
+			-->
 		</v-app-bar>
 		<v-navigation-drawer v-model="drawer">
 			<v-list>
