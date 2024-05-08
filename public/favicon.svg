@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+	<rect id="back" height="64" width="64" x="0" y="0" stroke="none" fill="#FFFFFF"/>
+	<rect opacity="0.15" height="32" width="32" x="0" y="0" stroke="none" fill="#FF0000"/>
+	<rect opacity="0.15" height="32" width="32" x="0" y="32" stroke="none" fill="#0000FF"/>
+	<rect opacity="0.15" height="32" width="32" x="32" y="0" stroke="none" fill="#00FF00"/>
+	<rect opacity="0.15" height="32" width="32" x="32" y="32" stroke="none" fill="#FFFF00"/>
+	<text x="1" y="16" font-family="sans-serif" font-size="12" alignment-baseline="central" text-anchor="start">T.Matz</text>
+	<text x="63" y="48" font-family="sans-serif" font-size="12" alignment-baseline="central" text-anchor="end">Portfolio</text>
+	<style>
+		@media (prefers-color-scheme: dark) {
+		rect[id="back"] {
+		fill: #000000;
+		}
+		text {
+		fill: #FFFFFF;
+		}
+		}
+	</style>
+</svg>
